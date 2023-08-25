@@ -3,7 +3,7 @@ from env import EMAIL, PORT
 from static.email import Send_Email, Cert_Code
 
 app = Flask(__name__, static_url_path='/static')
-test = ["admin@activejang.com","won2005won@naver.com","admin@activejang.kro.kr"]
+
 
 @app.route('/', methods=['GET','POST'])
 def send(): 
